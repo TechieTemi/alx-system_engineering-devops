@@ -1,0 +1,3 @@
+!#/bin/bash
+target="/bin/ls"
+ln -s "$target" "__ls__"

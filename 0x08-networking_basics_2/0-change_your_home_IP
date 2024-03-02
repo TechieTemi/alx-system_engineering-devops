@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
-# A script that configures an Ubuntu server wiht the below requiremenii.
-# Copy the original hosts file to a new location
+#    changes the following domain resolve ips
+#   localhost from 127.0.0.1 to 127.0.0.2
+#   facebook.com from 157.240.11.35 to 8.8.8.8
 
 cp /etc/hosts ~/hosts.Dorcas
 echo "localhost 127.0.0.2" >> ~/hosts.Dorcas

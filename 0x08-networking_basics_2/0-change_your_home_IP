@@ -4,7 +4,7 @@
 #   facebook.com from 157.240.11.35 to 8.8.8.8
 
 cp /etc/hosts ~/hosts.Dorcas
-echo "localhost 127.0.0.2" >> ~/hosts.Dorcas
+echo "localhost 127.0.0.2" > ~/hosts.Dorcas
 echo "8.8.8.8 facebook.com" >> ~/hosts.Dorcas
 cp -f ~/hosts.Dorcas /etc/hosts
 
